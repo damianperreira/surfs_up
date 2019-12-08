@@ -71,7 +71,7 @@ def temp_monthly():
     return jsonify(temps)
 
 # Statistics Route
-@app.route("/api/v1.0/temp/<start>")
+#@app.route("/api/v1.0/temp/<start>")
 @app.route("/api/v1.0/temp/<start>/<end>")
 
 def stats():
